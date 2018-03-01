@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <!-- 隐藏地址栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 制定iphone中safari顶端的状态条的样式（default:白色，black:黑色，black-translucent：半透明） -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body {padding: 10px;}
+        .link{color: rgba(219, 82, 18, 0.774); text-align: center;}
+    </style>
+</head>
+<body>
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+        <i class='glyphicon glyphicon-subtitles'></i>  刘宁的个人简历
+        </a>
+        <a href="#" class="list-group-item">&nbsp;<i class='glyphicon glyphicon-user'></i>&nbsp;男&nbsp;
+            |&nbsp;20 岁 -1998/01/18 &nbsp;3年工作经验</a>
+        <a href="#" class="list-group-item"> 
+            <i class='glyphicon glyphicon-envelope'></i>&nbsp;2891130059@qq.com | 1075858260@qq.com   
+        </a>
+        <a href="#" class="list-group-item">
+            <i class='glyphicon glyphicon-phone'></i>&nbsp;15622799716    
+        </a>
+        <a href="https://aion1998.github.io/ning.github.io/" class="list-group-item link">点击访问个人主页</a>
+        </div>
+
+        <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">工作经验</h3>
+                </div>
+                <div class="panel-body list-group">                        
+                    <a href="#" class="list-group-item"  data-toggle="modal" data-target=".bs-example-modal-sm">2016/5-2018/2	东莞市冠威贸易有限公司</a>
+                    <a href="#" class="list-group-item"  data-toggle="modal" data-target=".bs-example-modal-sm1">2015/10-2016/5	广州立珠生物科技有限公司</a>
+                    <a href="#" class="list-group-item"  data-toggle="modal" data-target=".bs-example-modal-sm2">2015/1-2015/10	广州航聚</a>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">技能</h3>
+                    </div>
+                    <div class="panel-body list-group">  
+                        <a href="#" class="list-group-item"> SQL Server	良好</a>
+                        <a href="#" class="list-group-item"> Web前端	良好</a>
+                        <a href="#" class="list-group-item"> 移动前端	良好</a>
+                        <a href="#" class="list-group-item"> VS2017/2015/2012	一般</a>
+                        <a href="#" class="list-group-item"> SEO/UI/Photoshop	一般</a>
+                        <a href="#" class="list-group-item"> DHTML/Html5+Css3/	一般</a>
+                        <a href="#" class="list-group-item"> ECMAScript常用规范,WebApi（BOM/DOM）一般</a>
+                        <a href="#" class="list-group-item"> C#语言.Net技术 （C#）MVC框架 一般</a>
+                        <a href="#" class="list-group-item"> Git/Svn 版本控制 一般</a>
+                        <a href="#" class="list-group-item"> Apicloud 一般</a>
+                        <a href="#" class="list-group-item"> winform 一般</a>
+
+                        <a href="#" class="list-group-item  link"> 以下无实际工作经验</a>
+                        <a href="#" class="list-group-item"> Axure RP</a>
+                        <a href="#" class="list-group-item"> Mongodb </a>
+                        <a href="#" class="list-group-item"> Nodejs	</a>
+                        <a href="#" class="list-group-item"> Webpackage</a>
+                        <a href="#" class="list-group-item"> （.Net） ABP框架</a>
+                        <a href="#" class="list-group-item"> Ko/Vue</a>
+                        <a href="#" class="list-group-item"> asp.net core 2.0</a>
+                        <a href="#" class="list-group-item"> oatuth2.0</a>
+                        <a href="#" class="list-group-item"> docker部署</a>
+                        <a href="#" class="list-group-item"> asp.net mvc webApi</a>
+                        <a href="#" class="list-group-item"> U3D</a>
+                        
+                      
+                    </div>
+                  </div>
+
+
+<!-- Small modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+            <div class="list-group">
+                    <a href="#" class="list-group-item active">东莞市冠威贸易有限公司 [1年9个月]</a>
+                    <a href="#" class="list-group-item">贸易/进出口|50-150人|合资</a>
+                    <a href="#" class="list-group-item">工作描述：	前期参与ERP系统的开发,负责个别功能模块。
+                        后来因业务需求扩展，经过一系列学习主导了ERP系统APP版本的开发，并一手完成了该需求，并一直保持着后期的维护与版本更新。
+                        ERP系统所用的是WCF+winform APP版本数据接口依旧使用WCF,采取了Apicloud混生开发模式 熟练掌握Git的个人使用与操作 学习到了团队开发经验，以及团队开发矛盾,等
+                    </a>
+                </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-sm1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+                  <div class="list-group">
+                          <a href="#" class="list-group-item active">广州立珠生物科技有限公司 [7个月]</a>
+                          <a href="#" class="list-group-item">医疗设备/器械|少于50人|民营公司</a>
+                          <a href="#" class="list-group-item">全权负责公司的电子商务平台搭建与开发，
+                                一手制作了公司的电子商务平台，扩展了公司贸易渠道。                                
+                                主用.Net开发在线商城，调用支付宝相关API作为在线支付方式,从域名选择到服务器搭建到网站开发制作以及后期维护都是一人完成                                
+                          </a>
+                      </div>
+          </div>
+        </div>
+</div>
+
+      <div class="modal fade bs-example-modal-sm2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+              <div class="modal-content">
+                      <div class="list-group">
+                              <a href="#" class="list-group-item active">广州航聚 [9个月] </a>
+                              <a href="#" class="list-group-item">互联网/电子商务|少于50人|民营公司</a>
+                              <a href="#" class="list-group-item">工作描述：	使用CMS内容管理系统参与网站前端修改与调整                               
+                              </a>
+                          </div>
+              </div>
+            </div>
+          </div>
+
+
+
+    <script>
+      console.log(console.log("asd"));
+    </script>
+</body>
+</html>
